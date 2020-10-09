@@ -12,7 +12,6 @@ Repo for documentation and collecting things for implementing GitHub at Rio.
 **Classroom Structure**
 1. Create an organization. (Course based, Term based, or AY based?)
 2. Create a repo(s) of the assignment.
-  a. One repo for continuous project across lessons.
-  b. Multi repos for one project per lesson.
+   1. One repo for continuous project across lessons.
+   2. Multi repos for one project per lesson.
 3. Create a classroom associated with the organization.
-
