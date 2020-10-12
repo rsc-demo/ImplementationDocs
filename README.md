@@ -14,3 +14,6 @@ Repo for documentation and collecting things for implementing GitHub at Rio.
   * They will help others within the department and/or other departments with implementing and using GitHub.
   * They will have ongoing responsibilities:
     * Clean up inactive users
+
+## Useful Links
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) - To help those who need to learn or refresh on markdown syntax
