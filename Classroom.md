@@ -1,7 +1,7 @@
 This document will have information about the Classroom Structure.
 
 ## Important Notes
-1. Teachers and admin must be owners on the organization.
+1. Teachers and admin must be owners on the organization. The classrooms pull their permissions from the organization it is associated with.
 2. The organization where student repos will be stored should have strict permissions.
 3. Classrooms can be archived. *Need to determine archival process.*
 
@@ -20,3 +20,10 @@ This document will have information about the Classroom Structure.
 5. When the classroom is set up, the TA and admin need to be added by Course Production.
    1. TAs would be the adjunct faculty/instructional team. *(Need to determine if we can set up a team in the org and be allowed to assign a team as a TA/Admin to make it easier for CP)*
    2. A join link for the TA/Admin needs to be sent to them so they have access.
+   
+## Classroom Process
+1. Create an organization. (Course based, Term based, or AY based?)
+2. Create a repo(s) of the assignment. *Maybe this could be within a separate dept org and not in the student org*
+   1. One repo for continuous project across lessons.
+   2. Multi repos for one project per lesson.
+3. Create a classroom associated with the organization.
