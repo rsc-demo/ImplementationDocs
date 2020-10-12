@@ -10,7 +10,7 @@ Repo for documentation and collecting things for implementing GitHub at Rio.
 * **Department Admins** - Department level administrators. 
   * There can be many department admins.
   * They do not need to follow the structure within HCM.
-  * They must submit a form to GitHub to self-identify as an administrator.
+  * They must submit an [Administrator Contact Form](https://airtable.com/shrqHkJkfGPgo4Q7J) to GitHub to self-identify as an administrator. 
   * They will help others within the department and/or other departments with implementing and using GitHub.
   * They will have ongoing responsibilities:
     * Clean up inactive users
