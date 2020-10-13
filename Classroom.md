@@ -12,7 +12,7 @@ This document will have information about the Classroom Structure.
 2. The student repos are stored within a main organization.
    1. All classrooms that point to the organization will have the student repos stored within it.
    2. This could make the org similar to our classweb server with all student information contained within it.
-   3. Instructors shouldn't need to access the org directly if they use classroom.
+   3. Instructors shouldn't need to access the org directly if they use classroom. This should save them from having to hunt for the students' repos if we have multiple sections in the same org.
 3. All classrooms have unique links for students to click on.
    1. Students click on a link to be placed into a roster and link up their GitHub account with the roster name.
    2. Students click on the links to accept the assignment, which creates the repo.
@@ -22,8 +22,51 @@ This document will have information about the Classroom Structure.
    2. A join link for the TA/Admin needs to be sent to them so they have access.
    
 ## Classroom Process
-1. Create an organization. (Course based, Term based, or AY based?)
-2. Create a repo(s) of the assignment. *Maybe this could be within a separate dept org and not in the student org*
+1. Create an organization for the dept. to store all the main copies of assignments, practice activities. All course repos can exist in the dept. repo.
+2. Create a repo(s) of the assignment(s). *I think this could be within a separate dept org and not in the student org*
    1. One repo for continuous project across lessons.
    2. Multi repos for one project per lesson.
-3. Create a classroom associated with the organization.
+   3. Repos for practice activities. I think one repo per course would be sufficient, placing the activities for each lesson in separate folders, each activity has its own steps.md file.
+3. Create an organization for student repos.
+4. Create a classroom associated with the organization.
+5. Create assignments within the classroom using starter code within repos.
+
+## Classroom Structure
+1. Dept. Org | rsc-comptech
+   1. Will contain the main/primary repos from which the classrooms are defined with.
+   2. Will contain the repos for all courses in the dept. Use naming convention to keep track of the versions.
+2. Course Orgs
+   1. Have one org per course. e.g., rsc-CIS133DA, rsc-CIS233DA
+   2. We have a bit less than 200 students per year in CIS133DA, 80 in CIS233DA, and less than 40 in the other web development courses.
+   3. Ways we can define the orgs:
+      1. Based upon the course master.
+         1. Could lead to a 1000+ repos in over 5 years for CIS133DA - if we only have one repo per student.
+         2. If we have a repo per lesson, then that will be 12+/- repos per student; or 2400 repos per year.
+      2. Based upon AY (Fall - Summer). e.g., rsc-cis133da-20-21
+      3. Based upon term. e.g., rsc-cis133da-4206
+      4. Based upon section. e.g., rsc-cis133da-99999
+      5. The more orgs we have to create the more we have to go through the process of setting up profiles, permissions, teams, etc.
+      6. Orgs can only be created by District/enterprise owners, so time to have them create the org must be accounted in any workflow.
+   4. Profile details:
+      1. Display name: Rio Salado College {Course}
+      2. Email: **Should this point to course support? cis.lead? other?**
+      3. Description: This organization is for student repos attached to GitHub Classroom
+      4. URL: go to Rio homepage [?]
+      5. Logo: use identifier image of Rio logo, unless we use the same one as in the lessons.
+   5. Permissions should be limited as follows:
+      1. Base member permission: Write
+      2. Members cannot create any Repos
+      3. Repository invitations: Disabled
+      4. Allow members to publish sites: Enabled
+      5. Repo visibility: disabled [?]
+      7. Repo deletion and transfer: disabled [?]
+      8. Issue deletion: disabled
+      9. Repo comments: enabled [?]
+      10. Repo discussions: disabled [?]
+      11. Team creation: disabled
+      12. Dependency insights: disabled [?]
+      13. Team discussions: disabled - Don't think it will be needed since it is at the org level and not at a course level.
+      14. Projects: disabled - don't think it will be needed for web courses
+      15. Repo labels. Not sure if needed or will be used. Need to play around with it.
+   6. Teams
+      1. Something to test - creating Teams and assigning them as TA/Admins in Classroom. 
