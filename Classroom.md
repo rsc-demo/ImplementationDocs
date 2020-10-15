@@ -32,6 +32,7 @@ This document will have information about the Classroom Structure.
 3. Create an organization for student repos.
 4. Create a classroom associated with the organization.
 5. Create assignments within the classroom using starter code within repos.
+**Note** - When GitHub Classroom imports and copies your starter repository, it does not copy your repository’s settings. Instead, use the [Probot Settings](https://classroom.github.com/help/probot-settings) app.
 
 ## Classroom Structure
 1. Dept. Org | rsc-comptech
