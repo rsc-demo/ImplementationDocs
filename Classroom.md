@@ -3,7 +3,9 @@ This document will have information about the Classroom Structure.
 ## Important Notes
 1. Teachers and admin must be owners on the organization. The classrooms pull their permissions from the organization it is associated with.
 2. The organization where student repos will be stored should have strict permissions.
-3. Classrooms can be archived. *Need to determine archival process.*
+3. Classrooms can be archived. 
+   1. It seems that instructors may be able to archive the classes themselves. 
+   2. *Need to determine archival process.*
 
 ## Classroom Overview
 1. The classroom is like a section in RioLearn that contains the student roster and quick access to their repos.
@@ -11,7 +13,7 @@ This document will have information about the Classroom Structure.
    2. It contains a list of students.
 2. The student repos are stored within a main organization.
    1. All classrooms that point to the organization will have the student repos stored within it.
-   2. This could make the org similar to our classweb server with all student information contained within it.
+   2. This could make the org similar to our classweb server with all student information contained within it and org owners can see all student's repos for grade grievance purposes.
    3. Instructors shouldn't need to access the org directly if they use classroom. This should save them from having to hunt for the students' repos if we have multiple sections in the same org.
 3. All classrooms have unique links for students to click on.
    1. Students click on a link to be placed into a roster and link up their GitHub account with the roster name.
@@ -34,6 +36,7 @@ This document will have information about the Classroom Structure.
 ## Classroom Structure
 1. Dept. Org | rsc-comptech
    1. Will contain the main/primary repos from which the classrooms are defined with.
+      1. Repos, when finalized, should be defined as templates to help speed up the creation of the repos for students.
    2. Will contain the repos for all courses in the dept. Use naming convention to keep track of the versions.
 2. Course Orgs
    1. Have one org per course. e.g., rsc-CIS133DA, rsc-CIS233DA
@@ -69,4 +72,21 @@ This document will have information about the Classroom Structure.
       14. Projects: disabled - don't think it will be needed for web courses
       15. Repo labels. Not sure if needed or will be used. Need to play around with it.
    6. Teams
-      1. Something to test - creating Teams and assigning them as TA/Admins in Classroom. 
+      1. Something to test - creating Teams and assigning them as TA/Admins in Classroom.
+3. Classroom creation
+   1. Add a classroom with pertinent information.
+      1. Name (suggested format): {Term}-{Course}-{Section}
+      2. Organization account (where student repos reside): Course Org
+      3. Connect to LMS for roster management: **Need to set up with programming**
+   2. There may be problems with CP creating the classrooms since it will be under their account. 
+      1. **Should we set up accounts for adjuncts so we know the UN/PW and CP can log into their account to set things up for them. I believe Math does this for MyMathLab.**
+      2. This idea would cause problems with allowing them to use their personal accounts. And we would not want to use accounts set up with Azure AD since the password would be same as HCM, etc.
+4. Assignment creation
+   1. Assignment information must be documented during development so Course Production can implement it correctly.
+      1. Assignment title
+      2. Custom Repo prefix - maybe add the section number to help easily identify within the course org
+      3. No deadline
+      4. Individual assignment
+      5. Private visibility - need to verify that org owners can still see repos as it says "only visible to student and classroom owners."
+      6. No student admin access
+   2. Identify where the starter code is. ORG/Repo
