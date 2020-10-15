@@ -39,6 +39,7 @@ This document will have information about the Classroom Structure.
       1. Repos, when finalized, should be defined as templates to help speed up the creation of the repos for students.
    2. Will contain the repos for all courses in the dept. Use naming convention to keep track of the versions.
 2. Course Orgs
+**IDEA** - What if we made orgs per instructor rather than by course? This way any course they teach would be within an org dedicated to them. 
    1. Have one org per course. e.g., rsc-CIS133DA, rsc-CIS233DA
    2. We have a bit less than 200 students per year in CIS133DA, 80 in CIS233DA, and less than 40 in the other web development courses.
    3. Ways we can define the orgs:
