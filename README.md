@@ -3,7 +3,9 @@ Repo for documentation and collecting things for implementing GitHub at Rio.
 
 ## Questions
 * What is the stance on licenses that should be applied to repos?
+ * How will this affect student repos?
 * Is there concern about using personal accounts and the College/District saying that any work on those accounts belong to them?
+ * Until further notice, the thinking is that if the project/content being worked on is within a District Enterprise Org, then it belongs to the College/District. Any personal work should be placed within personal repos outside of the enterprise.
 
 ## Roles
 * **Designated Admins** - District Office IT. Manage the enterprise.
