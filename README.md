@@ -19,3 +19,7 @@ Repo for documentation and collecting things for implementing GitHub at Rio.
 
 ## Useful Links
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) - To help those who need to learn or refresh on markdown syntax
+* [GitHub Docs](https://docs.github.com/en) - The site for all GitHub documents to learn how things work and implement the system.
+* [GitHub Classroom](https://classroom.github.com/) - The feature that can be used within courses to give student's private repos, grade assignments, and provide comments.
+* [Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf) - A cheat sheet to help remember common git commands and how GitHub works to share with staff and students.
+* [GitHub Blog | Education](https://github.blog/category/community/education/) - The blog website by GitHub Education about products, features, and events for educational institutions.
