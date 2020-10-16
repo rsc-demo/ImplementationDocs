@@ -18,29 +18,29 @@ This document will have information about the Classroom Structure.
 3. All classrooms have unique links for students to click on.
    1. Students click on a link to be placed into a roster and link up their GitHub account with the roster name.
    2. Students click on the links to accept the assignment, which creates the repo.
-4. Classroom rosters can be imported via LTI implementation. This is the prefered method.
+4. Classroom rosters can be imported via LTI implementation. 
+   1. This is the prefered method.
+   2. **I believe this is a manual process for keeping it sync'd. The instructor has to manually sync and pull the information into Classroom.** See [Import Roster from LMS](https://classroom.github.com/help/import-roster-from-lms)
 5. When the classroom is set up, the TA and admin need to be added by Course Production.
-   1. TAs would be the adjunct faculty/instructional team. *(Need to determine if we can set up a team in the org and be allowed to assign a team as a TA/Admin to make it easier for CP)*
+   1. TAs would be the adjunct faculty/instructional team. We cannot use teams in the org to assign them as a TA/Admin, they have to be added manually. We just have to make sure they are added to the org to be selectable.
    2. A join link for the TA/Admin needs to be sent to them so they have access.
    
 ## Classroom Process
 1. Create an organization for the dept. to store all the main copies of assignments, practice activities. All course repos can exist in the dept. repo.
-2. Create a repo(s) of the assignment(s). *I think this could be within a separate dept org and not in the student org*
-   1. One repo for continuous project across lessons.
-   2. Multi repos for one project per lesson.
-   3. Repos for practice activities. I think one repo per course would be sufficient, placing the activities for each lesson in separate folders, each activity has its own steps.md file.
+2. Create a repo(s) of the assignment(s). This is the starter code for the assignment. It can be in a separate org.
+   1. One repo for continuous project across lessons, or to submit all lessons in the one repo in different folders. With version history and commits, we could go back to see what a student did for a lesson. This could alleviate those issues of students who may override their work. *I'm leaning more towards this idea currently.*
+   2. Multiple repos for one project per lesson. This could get cumbersome for students having to clone each repo for each assignment, though it would reinforce those skills (but it isn't a necessary skill for the course).
+   3. Repo(s) for practice activities. I think one repo per course would be sufficient, placing the activities for each lesson in separate folders, each activity has its own steps.md file.
 3. Create an organization for student repos.
 4. Create a classroom associated with the organization.
-5. Create assignments within the classroom using starter code within repos.
-**Note** - When GitHub Classroom imports and copies your starter repository, it does not copy your repository’s settings. Instead, use the [Probot Settings](https://classroom.github.com/help/probot-settings) app.
+5. Create assignments within the classroom using starter code within repos. (**Note** - When GitHub Classroom imports and copies your starter repository, it does not copy your repository’s settings. Instead, use the [Probot Settings](https://classroom.github.com/help/probot-settings) app.)
 
 ## Classroom Structure
 1. Dept. Org | rsc-comptech
    1. Will contain the main/primary repos from which the classrooms are defined with.
-      1. Repos, when finalized, should be defined as templates to help speed up the creation of the repos for students.
+      1. Repos should be defined as templates to help speed up the creation of the repos for students.
    2. Will contain the repos for all courses in the dept. Use naming convention to keep track of the versions.
-2. Course Orgs
-**IDEA** - What if we made orgs per instructor rather than by course? This way any course they teach would be within an org dedicated to them. 
+2. Course Orgs (**IDEA** - What if we made orgs per instructor rather than by course? This way any course they teach would be within an org dedicated to them.)
    1. Have one org per course. e.g., rsc-CIS133DA, rsc-CIS233DA
    2. We have a bit less than 200 students per year in CIS133DA, 80 in CIS233DA, and less than 40 in the other web development courses.
    3. Ways we can define the orgs:
