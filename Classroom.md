@@ -94,3 +94,13 @@ This document will have information about the Classroom Structure.
    5. Private visibility - need to verify that org owners can still see repos as it says "only visible to student and classroom owners."
    6. No student admin access
 2. Identify where the starter code is. ORG/Repo
+3. Branches from template repo are copied over. 
+   1. If the feedback feature is enabled, this will create 3 branches. 
+   2. Maybe we just have students work in the main branch (though this is not a good practice to develop/teach). **See Feedback Feature info below.**
+4. The feedback feature creates a pull request to show all commits applied to the main branch. 
+   1. If students use a development branch, they would need to merge their development branch with main branch to be able to use the feedback feature.
+   2. The feature is essentially pulling the changes from the main branch and merging it with the feedback branch.
+   3. Instructors are automatically subscribed to the pull request so they'll get emails any time a student pushes a commit. 
+      1. If they are doing a lot of commits while working on their assignment, instructors would get a ton of emails.
+      2. This fact makes using the development branch the better option with students work. And then students merge it with the main branch to "submit" their assignment to the instructor.
+      3. Instructors would get an email saying it is submitted. Vs. a Perception submission. Grades could be entered into RL.
