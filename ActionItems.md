@@ -1,4 +1,4 @@
-This document contains the list of action items to implement GitHub Classroom into courses for the Computer Technology dept.
+This document contains the list of action items and notes regarding the action items to implement GitHub Classroom into courses for the Computer Technology dept.
 
 # Action Items
 
