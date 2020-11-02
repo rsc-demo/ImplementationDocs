@@ -4,7 +4,7 @@ This file will document ideas and thoughts about how we might develop courses an
 ## Course Content
 1. The content will be contained within CourseArc.
 2. The content will explain the theory portion of what the students need to learn with How To examples.
-3. Practice Activities will link out to 
+3. Practice Activities could be stored within GitHub repo(s).
 
 ## Projects
 1. Directions can reside in a Markdown file (.md). 
@@ -23,13 +23,14 @@ This file will document ideas and thoughts about how we might develop courses an
 ## Practice Activities
 1. We can have the practice activities within a repo.
   1. The repo could contain all the practice activities within separate folders.
-  2. We could create a repo per practice activity.
-  3. **We should take a look at it from a student's perspective to see how easy it would be to set things up in VS code if they end up having a lot of repos.**
+  2. OR we could create a repo per practice activity. **We should take a look at it from a student's perspective to see how easy it would be to set things up in VS code if they end up having a lot of repos.**
 2. We can utilize the GitHub Actions to help provide feedback to students automatically to help them learn where their code is wrong and how to fix it.
+  1. Current thought is to make this is a Phase II project, but if time allows, sneak it in at the end of Phase I since it is all done in GitHub and shouldn't rely on RL to function.
+3. At this time, GitHub Codespaces does not seem to be available for GitHub Classroom. May potentially still need the Try It editor.
 
 **IDEA** - Could (Should) we still utilize the TryCode editor and link it to the student's repo?
 1. It could pull in the readme.md file for the steps they need to complete. 
 2. It could save to their repo.
 3. If we could, then I think we could have one repo for all their practice activities and just point to the correct folder.
 4. The online IDE in GitHub for Codespaces in not available at the moment. The only current option would be to use repl.it.
-5. I wonder if we can push out changes to already created repos if they need to occur. 
+5. I wonder if we can push out changes to already created repos if they need to occur.
