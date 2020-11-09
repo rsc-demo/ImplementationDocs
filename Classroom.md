@@ -27,8 +27,8 @@ This document will have information about the Classroom Structure.
    
 ## Classroom Process
 1. Create an organization for the dept. to store all the main copies of assignments, practice activities. All course repos can exist in the dept. repo.
-2. Create a repo(s) of the assignment(s). This is the starter code for the assignment. It can be in a separate org.
-   1. One repo for continuous project across lessons, or to submit all lessons in the one repo in different folders. With version history and commits, we could go back to see what a student did for a lesson. This could alleviate those issues of students who may override their work. *I'm leaning more towards this idea currently.*
+2. Create a repo(s) of the assignment(s). This is the starter code for the assignment. It can be in a separate org. **Note:** A best practice may be to have one repo as a working repo where changes could occur, which is then merged into the template repo to ensure that any edits being worked on do not get copied over to students while being worked on. Also, it would be good to squash commit histories so changes that have occurred over time do not confuse students and to ensure the git does not get too large for students to clone.
+   1. One repo for continuous project across lessons, or to submit all lessons in the one repo in different folders. With version history and commits, we could go back to see what a student did for a lesson. This could alleviate those issues of students who may override their work.
    2. Multiple repos for one project per lesson. This could get cumbersome for students having to clone each repo for each assignment, though it would reinforce those skills (but it isn't a necessary skill for the course).
    3. Repo(s) for practice activities. I think one repo per course would be sufficient, placing the activities for each lesson in separate folders, each activity has its own steps.md file.
 3. Create an organization for student repos.
