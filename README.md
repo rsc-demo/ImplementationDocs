@@ -28,3 +28,6 @@ Repo for documentation and collecting things for implementing GitHub at Rio.
   * [GitHub Flavored Markdown](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
   * For giggles - [GitHub for Robotics comic book](https://aws1.discourse-cdn.com/standard17/uploads/github/original/2X/1/175452fc42e0a4e34b0dd52d4c923ab47fd1619f.cbr) - It is a CBR file so you will need an app to read it.
 * [GitHub Blog | Education](https://github.blog/category/community/education/) - The blog website by GitHub Education about products, features, and events for educational institutions.
+* Tools that could help:
+  * [GitRuler](https://rcraggs.github.io/gitruler-home/) - help create tests to grade assignments
+  * [GitHub Learning Labs](https://lab.github.com/) - modules to learn various parts of development
