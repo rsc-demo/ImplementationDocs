@@ -34,3 +34,7 @@ This file will document ideas and thoughts about how we might develop courses an
 3. If we could, then I think we could have one repo for all their practice activities and just point to the correct folder.
 4. The online IDE in GitHub for Codespaces in not available at the moment. The only current option would be to use repl.it.
 5. I wonder if we can push out changes to already created repos if they need to occur.
+
+## Brainstorming Ideas
+1. Create an issue to answer questions about topics, explain why they did something.
+   1. Or since the pull request is already created, students can add comments with their answers to explain why they did something, explain their process.
