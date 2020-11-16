@@ -32,7 +32,9 @@ This file will document ideas and thoughts about how we might develop courses an
 1. It could pull in the readme.md file for the steps they need to complete. 
 2. It could save to their repo.
 3. If we could, then I think we could have one repo for all their practice activities and just point to the correct folder.
-4. The online IDE in GitHub for Codespaces in not available at the moment. The only current option would be to use repl.it.
+4. The online IDE in GitHub for Codespaces in not available at the moment. 
+   1. There is a cost associated with it, so we couldn't use it now anyways. And would need Chair/Admin approval.
+   2. The only other option would be to use repl.it, but this would force another account to be created by students so hesitant about using this. Also there is a cost associated with it, and the Teams for education feature is in beta so would want to wait anyways. Currently integrated with GitHub Classroom.
 5. I wonder if we can push out changes to already created repos if they need to occur.
 
 ## Brainstorming Ideas
