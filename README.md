@@ -27,6 +27,8 @@ Repo for documentation and collecting things for implementing GitHub at Rio.
   * [GitHub Flow](https://enterprise.github.com/downloads/en/github-flow-cheatsheet.pdf)
   * [GitHub Flavored Markdown](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
   * For giggles - [GitHub for Robotics comic book](https://aws1.discourse-cdn.com/standard17/uploads/github/original/2X/1/175452fc42e0a4e34b0dd52d4c923ab47fd1619f.cbr) - It is a CBR file so you will need an app to read it.
+  * [Connect to LMS Help](https://classroom.github.com/help/connect-to-lms)
+  * [GitHub API Documentation](https://github.com/education/classroom/tree/master/app/controllers/api)
 * [GitHub Blog | Education](https://github.blog/category/community/education/) - The blog website by GitHub Education about products, features, and events for educational institutions.
 * Tools that could help:
   * [GitRuler](https://rcraggs.github.io/gitruler-home/) - help create tests to grade assignments
