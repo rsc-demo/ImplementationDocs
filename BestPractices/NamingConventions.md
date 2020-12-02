@@ -5,7 +5,7 @@ These will be the naming conventions we will use for setting things up.
 1. All orgs will start with "rsc-" to indicate it is for Rio Salado College
 2. Department orgs will contain the department name (e.g., rsc-computer-technology, rsc-media)
 3. Student orgs will follow this format: Course-Modality-Version-SpecialtyCode
-   1. e.g., CIS233DA-in-v8
+   1. e.g., rsc-CIS233DA-in-v8
    2. A specialty code may not be used and can be left off if there is none.
 ## Template Repos
 1. Will follow this format: Course-Version-L#-TypeOfActivity
