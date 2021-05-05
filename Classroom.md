@@ -8,72 +8,76 @@ This document will have information about the Classroom Structure.
    2. *Need to determine archival process.*
 
 ## Classroom Overview
-1. The classroom is like a section in RioLearn that contains the student roster and quick access to their repos.
-   1. It contains the assignments for the course (and practice activities?).
+1. A classroom is a course section that contains the student roster and quick access to their repos.
+   1. It contains the assignments for the course (and practice activities).
    2. It contains a list of students.
 2. The student repos are stored within a main organization.
-   1. All classrooms that point to the organization will have the student repos stored within it.
-   2. This could make the org similar to our classweb server with all student information contained within it and org owners can see all student's repos for grade grievance purposes.
-   3. Instructors shouldn't need to access the org directly if they use classroom. This should save them from having to hunt for the students' repos if we have multiple sections in the same org.
+   1. Student repos have their username automatically appended to the repo name.
+   2. All classrooms that point to the organization will have the student repos stored within it.
+   3. All student repos can be seen directly for the org on GitHub. Classroom provides an easy/nice method of viewing the repos directly.
+   4. The college retains control of the repos for grade grievance purposes.
+   5. Instructors shouldn't need to access the org directly if they use classroom. This should save them from having to hunt for the students' repos if we have multiple sections in the same org.
 3. All classrooms have unique links for students to click on.
    1. Students click on a link to be placed into a roster and link up their GitHub account with the roster name.
    2. Students click on the links to accept the assignment, which creates the repo.
-4. Classroom rosters can be imported via LTI implementation. 
+4. Classroom rosters can be imported via LTI implementation.
    1. This is the prefered method.
    2. **I believe this is a manual process for keeping it sync'd. The instructor has to manually sync and pull the information into Classroom.** See [Import Roster from LMS](https://classroom.github.com/help/import-roster-from-lms)
-5. When the classroom is set up, the TA and admin need to be added by Course Production.
-   1. TAs would be the adjunct faculty/instructional team. We cannot use teams in the org to assign them as a TA/Admin, they have to be added manually. We just have to make sure they are added to the org to be selectable.
-   2. A join link for the TA/Admin needs to be sent to them so they have access.
+5. When the classroom is set up:
+   1. Adjuncts/Instructional Teams must be org owners to be added as a Classroom Admin for the section. 
+   2. Course product needs to send the join link to adjuncts when the classroom is set up.
+   3. We cannot use teams in the org to assign them as a TA/Admin, they have to be added manually. We just have to make sure they are added to the org to be selectable.
    
 ## Classroom Process
-1. Create an organization for the dept. to store all the main copies of assignments, practice activities. All course repos can exist in the dept. repo.
+1. Create an organization for the course.
+   1. Developer will store all the template repos of assignments, practice activities, and keys.
+   2. The org will be used for GH Classroom and stores student repos.
 2. Create a repo(s) of the assignment(s). This is the starter code for the assignment. It can be in a separate org. **Note:** A best practice may be to have one repo as a working repo where changes could occur, which is then merged into the template repo to ensure that any edits being worked on do not get copied over to students while being worked on. Also, it would be good to squash commit histories so changes that have occurred over time do not confuse students and to ensure the git does not get too large for students to clone.
    1. One repo for continuous project across lessons, or to submit all lessons in the one repo in different folders. With version history and commits, we could go back to see what a student did for a lesson. This could alleviate those issues of students who may override their work.
    2. Multiple repos for one project per lesson. This could get cumbersome for students having to clone each repo for each assignment, though it would reinforce those skills (but it isn't a necessary skill for the course).
    3. Repo(s) for practice activities. I think one repo per course would be sufficient, placing the activities for each lesson in separate folders, each activity has its own steps.md file.
-3. Create an organization for student repos.
-4. Create a classroom associated with the organization.
-5. Create assignments within the classroom using starter code within repos. (**Note** - When GitHub Classroom imports and copies your starter repository, it does not copy your repository’s settings. Instead, use the [Probot Settings](https://classroom.github.com/help/probot-settings) app.)
+3. Create a classroom associated with the organization.
+4. Create assignments within the classroom using starter code within repos. (**Note** - When GitHub Classroom imports and copies your starter repository, it does not copy your repository’s settings. Instead, use the [Probot Settings](https://classroom.github.com/help/probot-settings) app.)
 
 ## Classroom Structure
 1. Dept. Org | rsc-comptech
    1. Will contain the main/primary repos from which the classrooms are defined with.
       1. Repos should be defined as templates to help speed up the creation of the repos for students.
    2. Will contain the repos for all courses in the dept. Use naming convention to keep track of the versions.
-2. Course Orgs (**IDEA** - What if we made orgs per instructor rather than by course? This way any course they teach would be within an org dedicated to them.)
+2. Course Orgs
    1. Have one org per course. e.g., rsc-CIS133DA, rsc-CIS233DA
    2. We have a bit less than 200 students per year in CIS133DA, 80 in CIS233DA, and less than 40 in the other web development courses.
-   3. Ways we can define the orgs:
-      1. Based upon the course master.
-         1. Could lead to a 1000+ repos in over 5 years for CIS133DA - if we only have one repo per student.
-         2. If we have a repo per lesson, then that will be 12+/- repos per student; or 2400 repos per year.
-      2. Based upon AY (Fall - Summer). e.g., rsc-cis133da-20-21
-      3. Based upon term. e.g., rsc-cis133da-4206
-      4. Based upon section. e.g., rsc-cis133da-99999
-      5. The more orgs we have to create the more we have to go through the process of setting up profiles, permissions, teams, etc.
-      6. Orgs can only be created by District/enterprise owners, so time to have them create the org must be accounted in any workflow.
-   4. Profile details:
+   3. The more orgs we have to create the more we have to go through the process of setting up profiles, permissions, teams, etc.
+   4. Orgs can only be created by District/enterprise owners, so time to have them create the org must be accounted in any workflow.
+   5. Naming convention will utilize the following with hyphens in between each item:
+      1. Rio's abbreviation: RSC
+      2. The course number and module: e.g., CIS233DA
+      3. The modality: e.g., IN
+      4. Version within RioLearn Course Definition: e.g., v8
+      5. Example course organization: rsc-cis233DA-in-v8
+   6. Org profile details:
       1. Display name: Rio Salado College {Course}
       2. Email: **Should this point to course support? cis.lead? other?**
-      3. Description: This organization is for student repos attached to GitHub Classroom
-      4. URL: go to Rio homepage [?]
-      5. Logo: use identifier image of Rio logo, unless we use the same one as in the lessons.
-   5. Permissions should be limited as follows:
-      1. Base member permission: Write
+      3. Description: This organization is for student repos attached to GitHub Classroom for {Course}
+      4. URL: https://www.riosalado.edu/degrees-certificates/computer-and-information-technology
+      5. Logo: use logo used within the lessons
+   7. Permissions should be limited as follows:
+      1. Base member permission: No Permissions
       2. Members cannot create any Repos
-      3. Repository invitations: Disabled
-      4. Allow members to publish sites: Enabled
-      5. Repo visibility: disabled [?]
-      7. Repo deletion and transfer: disabled [?]
+      3. Repository Forking: Disabled
+      4. Repository invitations: Disabled
+      5. Allow members to publish sites: Enabled
+      6. Repo visibility: disabled
+      7. Repo deletion and transfer: disabled
       8. Issue deletion: disabled
-      9. Repo comments: enabled [?]
-      10. Repo discussions: disabled [?]
+      9. Repo comments: enabled
+      10. Repo discussions: enabled
       11. Team creation: disabled
-      12. Dependency insights: disabled [?]
+      12. Dependency insights: enabled
       13. Team discussions: disabled - Don't think it will be needed since it is at the org level and not at a course level.
       14. Projects: disabled - don't think it will be needed for web courses
       15. Repo labels. Not sure if needed or will be used. Need to play around with it.
-   6. Teams
+   8. Teams
       1. Something to test - creating Teams and assigning them as TA/Admins in Classroom.
 
 ## Classroom creation
