@@ -17,10 +17,29 @@ This readme file contains the steps and process that Course Production will need
     2. e.g., 2021-CIS233DA-99999-Fall
 4. Click the `Create classroom` button.
 
-For additional help information, refer to the [Manage Classrooms](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/manage-classrooms#creating-a-classroom) help information.
+For additional help information, refer to the [Manage Classrooms](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/manage-classrooms#creating-a-classroom) help information on GitHub Docs.
 
 ## Create an Assignment
+1. If necessary, open the classroom for the desired section.
+2. Click on the `Create Assignment` button (or `New Assignment` button if some assignments already exist).
+3. Go through the wizard to set up the assignment.
+    1. Give the assignment a name based upon the following:
+        1. Practive Activities - Lsn#-PracticeActivity - e.g., Lsn2-PracticeActivities
+        2. Project Assignments - Lsn#-Project - e.g., Lsn2-Project
+        3. Final Exam Projects - Lsn#-FinalExamProject - e.g., Lsn12-FinalExamProject
+    3. Check the box below the assignment name to assign a prefix to the student repos. Edit the prefix to list the section number.
+    4. Do not assign a due date.
+    5. For assignment type, select Individual. Should be selected by default.
+    6. For Repo visibility, select Private.
+    7. Do NOT check the box to grant student's admin rights to their repo.
+    8. Click `Continue`.
+    9. Select the associated template for the assignment. The repo will be within the organization associated with the classroom. The name of the repo will match the assignment name with the word `-template` at the end.
+    10. Click `Contine`.
+    11. For Projects and Final Exam Projects, click the box to Enable feedback pull requests.
+    12. Click `Create Assignment`.
+4. 
 
+For additional help information, refer to the [Create an Individual Assignment](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment#creating-an-assignment) help information on GitHub Docs.
 
 ## Assignment Invitations
 
