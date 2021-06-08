@@ -5,7 +5,7 @@ This readme file contains the steps and process that Course Production will need
 1. Log into [GitHub Classroom](https://classroom.github.com) with the Course Production account.
 2. Create a new Classroom associated with the course organization. See Create a Classroom
 3. Create the necessary assignments within the new classroom. See Create an assignment.
-4. Copy the assignment invitation link for the first assignment to send to the adjunct. See Assignment Invitations.
+4. Copy the assignment invitation link for each assignment and put into the database. See Assignment Invitations.
 5. Copy the invitation link for the TAs/Adjuncts to join the classroom. See Invite Adjuncts to Classroom.
 
 ## Create a Classroom
@@ -46,10 +46,10 @@ For additional help information, refer to the [Create an Individual Assignment](
 ## Assignment Invitations
 1. If needed, open the classroom for the desired section.
 2. Under the `Assignments` tab:
-    1. Find the first assignment, the practice activity within the Course Introduction.
+    1. Find the assignment where the invitation link needs to be copied.
     2. Click on the Invite link drop down.
     3. Click on the Copy to clipboard button next to the listed URL.
-3. Paste the link into the email that is sent to the adjunct in the appropriate location.
+3. Paste the link into the database.
 
 ## Invite Adjuncts to Classroom
 NOTE: All adjuncts must have the admin role within the organization related to course. This must be done before they can accept the link. This only needs to occur the first time they teach a new version of the course. They will remain admin for any subsequent sections for that course version.
