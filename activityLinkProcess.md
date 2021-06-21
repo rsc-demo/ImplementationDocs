@@ -25,5 +25,5 @@
 1.  Upon loading the first invite block, would it be more efficient to load all of the activity links into local storage, WebSQL, or IndexedDB?
     - Probably not good for instructors, because it needs to update depending on the section they came in through RL
 2.  Might be good to make a page with all of the GHactivityBlocks so instructors don't need to go in and out of every lesson to accept the invites.
-    - Instructors will need to first go into any lesson so that the 'sectionID' is passed to CourseArc.
+    - Instructors will need to first go into any lesson so that the `sectionID` is passed to CourseArc.
     - Then they can click on the bookmarked page to get to the list of invites. They must use the same browser session for it to work.
