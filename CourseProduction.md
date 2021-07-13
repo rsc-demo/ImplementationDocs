@@ -26,18 +26,18 @@ Note, during development a list of the needed assignments will be created with p
 2. Click on the `Create Assignment` button (or `New Assignment` button if some assignments already exist).
 3. Go through the wizard to set up the assignment.
     1. Give the assignment a name based upon the following:
-        1. Practive Activities - Lsn#-PracticeActivity - e.g., Lsn2-PracticeActivities
-        2. Project Assignments - Lsn#-Project - e.g., Lsn2-Project
-        3. Final Exam Projects - Lsn#-FinalExamProject - e.g., Lsn12-FinalExamProject
+        1. Practive Activities - Lesson # Practice Activities - e.g., Lessson 2 Practice Activities
+        2. Project Assignments - Lesson # Project - e.g., Lesson 2 Project
+        3. Final Exam Projects - Lesson # Final Exam Project - e.g., Lesson 12 Final Exam Project
     3. Check the box below the assignment name to assign a prefix to the student repos. Edit the prefix to list the section number.
     4. Do not assign a due date.
-    5. For assignment type, select Individual. Should be selected by default.
-    6. For Repo visibility, select Private.
+    5. For assignment type, select **Individual**. Should be selected by default.
+    6. For Repo visibility, select **Private**.
     7. Do NOT check the box to grant student's admin rights to their repo.
     8. Click `Continue`.
     9. Select the associated template for the assignment. The repo will be within the organization associated with the classroom. The name of the repo will match the assignment name with the word `-template` at the end.
-    10. Click `Contine`.
-    11. For Projects and Final Exam Projects, click the box to Enable feedback pull requests.
+    10. Click `Continue`.
+    11. For Projects and Final Exam Projects, click the box to **Enable feedback pull requests**.
     12. Click `Create Assignment`.
 4. Repeat steps 2-3 for each additional assignment, practice activity, and final exam project required for the course.
 
