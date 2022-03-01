@@ -33,12 +33,13 @@ Note, during development a list of the needed assignments will be created with p
     4. Do not assign a due date.
     5. For assignment type, select **Individual**. Should be selected by default.
     6. For Repo visibility, select **Private**.
-    7. Do NOT check the box to grant student's admin rights to their repo.
+    7. Do check the box to grant student's admin rights to their repo.
     8. Click `Continue`.
     9. Select the associated template for the assignment. The repo will be within the organization associated with the classroom. The name of the repo will match the assignment name with the word `-template` at the end.
-    10. Click `Continue`.
-    11. For Projects and Final Exam Projects, click the box to **Enable feedback pull requests**.
-    12. Click `Create Assignment`.
+    10. Select 'VS-Code' as the Supported editor.
+    11. Click `Continue`.
+    12. For Projects and Final Exam Projects, click the box to **Enable feedback pull requests**.
+    13. Click `Create Assignment`.
 4. Repeat steps 2-3 for each additional assignment, practice activity, and final exam project required for the course.
 
 For additional help information, refer to the [Create an Individual Assignment](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment#creating-an-assignment) help information on GitHub Docs.
@@ -72,6 +73,5 @@ Before you can view the classroom, you must follow the Admin Invitation Link bel
 
     **Course Name**: 
     **Admin Invitation Link**: 
-    **First Assignment Invitation Link**: 
 
 Please use the First Assignment Invitation Link to post a course announcement, using the announcement template provided by your department, so students can accept the first assignment in the course. All subsequent assignment invitation links that students require can be found when they navigate to GitHub Classrooms and sign in with their account.
